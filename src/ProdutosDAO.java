@@ -45,7 +45,7 @@ public class ProdutosDAO {
     }
 
     public ArrayList<ProdutosDTO> listarProdutos() {
-        String url = "jdbc:mysql://localhost:3306/uc11";
+        String url = "jdbc:mysql://localhost:3306/uc11?useSSL=false";
         String usuario = "root";
         String senha = "12345";
 
@@ -75,7 +75,7 @@ public class ProdutosDAO {
     }
 
     public boolean venderProduto(int id) {
-        String url = "jdbc:mysql://localhost:3306/uc11";
+        String url = "jdbc:mysql://localhost:3306/uc11?useSSL=false";
         String usuario = "root";
         String senha = "12345";
 
@@ -95,7 +95,7 @@ public class ProdutosDAO {
     }
 
     public ArrayList<ProdutosDTO> listarProdutosVendidos() {
-        String url = "jdbc:mysql://localhost:3306/uc11";
+        String url = "jdbc:mysql://localhost:3306/uc11?useSSL=false";
         String usuario = "root";
         String senha = "12345";
 
